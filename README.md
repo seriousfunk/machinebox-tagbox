@@ -8,7 +8,7 @@ Tagbox lets you identify the content of images by getting a list of ordered tags
 1. Clone repo ``git clone https://github.com/seriousfunk/machinebox-tagbox``
 2. Create .env file with your [Machinebox.io](https://machinebox.io/docs/tagbox) MB_KEY ``echo MB_KEY=YOUR_MB_KEY >> ./.env``
 3. Copy your files into the ``apache/images`` folder or update the volume mapping in the docker-compose.yml
-4. Start Docker containers ``docker-compose up -d``
+4. Start Docker containers ``docker-compose up -d`` (leave of "-d" to see Apache and Tagbox logs that are sent to stdout :)
 5. Tagbox will be running on http://localhost:8888/ and your Apache server on http://localhost:8080/
 
 ## Tagbox Instructions
